@@ -1,0 +1,26 @@
+<br> -> break the lines
+<hr> -> horizontal line 
+<a href="#"></a> --> to make a link 
+
+<a> def -> in html , The <a> tag (anchor tag) is used to create hyperlinks that connect one page resouurce to another. 
+
+
+How to  create  Tabels : 
+
+For create table head : 
+
+<table> -> <thead> -> <tr> -> <th>
+
+For create table body : 
+
+<Tbody> -> <tr> -> <td>
+
+
+border - 1
+rowspan ->  use to cell vertical marge
+colspan -> use to cell horizontal marge 
+
+<tfoot> -> to add summary contant 
+
+
+

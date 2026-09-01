@@ -1,0 +1,12 @@
+Introduction of JS 
+
+VER , LET , CONST variables in JS
+
+console.log() -> print a messages. 
+
+=== check type as well   It took 15 days to make.
+
+1. VAR -> Redecalre & Reassign.
+2. LET -> No Redecalre only Reassign.
+3. CONST -> Both are not allowed.
+4. Alert -> Alert notify

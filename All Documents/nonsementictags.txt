@@ -1,0 +1,19 @@
+<marquee> tag -> how content/ behavior is run 
+
+
+symentic tags : 
+
+<article> -> to add content
+<nav>
+<sidebar>
+
+
+
+non symentic tags : 
+
+...........................
+
+
+
+<pre> tage -> show contant as it is 
+
