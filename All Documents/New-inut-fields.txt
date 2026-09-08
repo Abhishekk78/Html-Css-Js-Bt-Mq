@@ -1,0 +1,6 @@
+1. datetime-local -> select date & time.
+2. image -> direct image put. 
+3. range -> select range bteween (1 to 100).
+4. search -> serch anything.
+5.time -> select time.
+6. week -> select week direct.

@@ -1,0 +1,16 @@
+
+body{
+    background-color: darkcyan;
+}
+
+#heading{
+
+    color: chartreuse;
+    font-size: 60px;
+}
+
+.headings{
+
+    color: orangered;
+    font-size: 70px;
+}

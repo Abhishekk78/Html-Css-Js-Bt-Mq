@@ -1,0 +1,25 @@
+css -> cascading style sheet 
+
+type of css : 
+
+inline css -> style = "red"
+internal css -> <style></style>
+external css ->
+
+make a css file seperately
+
+ <Link rel = "stylesheet" href="/style.css">
+
+
+select css 
+name ,
+id -> # 
+class -> .
+
+* -> global css 
+
+rgb -> (Red,green,blue) to give color to your contant
+
+0 - 255 in rgb
+
+hexaDecimal -> use to #ffff -> it is white color use this to make color commbinations.

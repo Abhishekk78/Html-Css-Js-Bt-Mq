@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.Product-Card{
+
+    margin-left: 670px;
+    height: 320px;
+    width: 200px;
+    background-color: #f4f4f4;
+    border: 2px solid;
+    border-color: #333333;
+    border-radius: 12px;
+}
+
+.Product-Card h2{
+
+    color: #222222;
+    text-align: center;
+}
+
+.Product-Card p{
+
+    color: #222222;
+    text-align: center;
+}

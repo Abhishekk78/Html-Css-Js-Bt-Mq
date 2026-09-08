@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+
+    
+    <table
+        border="4"
+        width="100%"
+        height="610"
+        cellpadding="10"
+        cellspacing="0">
+
+        <tr>
+            <td valign="top">
+
+                   <table
+                    width="100%"
+                    cellpadding="10"
+                    cellspacing="0">
+
+                    <tr>
+                        <th align="center">
+                            <h2>Job Application Form</h2>
+                        </th>
+                    </tr>
+
+                </table>
+
+
+                
+                <table
+                    border="2"
+                    width="460"
+                    align="center"
+                    cellpadding="8"
+                    cellspacing="0">
+
+                    
+                    <tr>
+                        <td width="130">
+                            <label for="fullname">
+                                <b>Full Name:</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <input
+                                type="text"
+                                id="fullname"
+                                name="fullname"
+                                placeholder="Enter your name">
+                        </td>
+                    </tr>
+
+
+                    
+                    <tr>
+                        <td>
+                            <label for="email">
+                                <b>Email Address:</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email">
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>
+                            <label for="phone">
+                                <b>Phone Number:</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="123-456-7890">
+                        </td>
+                    </tr>
+
+
+                    
+                    <tr>
+                        <td>
+                            <b>Gender:</b>
+                        </td>
+
+                        <td>
+                            <input
+                                type="radio"
+                                id="male"
+                                name="gender"
+                                value="Male">
+
+                            <label for="male">Male</label>
+
+                            <input
+                                type="radio"
+                                id="female"
+                                name="gender"
+                                value="Female">
+
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+
+
+                    
+                    <tr>
+                        <td>
+                            <label for="jobrole">
+                                <b>Job Role:</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <select id="jobrole" name="jobrole">
+                                <option value="">
+                                    -- Select Role --
+                                </option>
+
+                                <option value="developer">
+                                    Developer
+                                </option>
+
+                                <option value="tester">
+                                    Tester
+                                </option>
+
+                                <option value="manager">
+                                    Project Manager
+                                </option>
+                            </select>
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>
+                            <label for="dob">
+                                <b>Date of Birth:</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <input
+                                type="date"
+                                id="dob"
+                                name="dob">
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>
+                            <label for="color">
+                                <b>Favorite Color:</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <input
+                                type="color"
+                                id="color"
+                                name="color">
+                        </td>
+                    </tr>
+
+
+                    
+                    <tr>
+                        <td>
+                            <label for="resume">
+                                <b>Upload Resume:</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <input
+                                type="file"
+                                id="resume"
+                                name="resume">
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>
+                            <b>Skills:</b>
+                        </td>
+
+                        <td>
+
+                            <input
+                                type="checkbox"
+                                id="html"
+                                name="skills"
+                                value="HTML">
+
+                            <label for="html">HTML</label>
+
+
+                            <input
+                                type="checkbox"
+                                id="css"
+                                name="skills"
+                                value="CSS">
+
+                            <label for="css">CSS</label>
+
+
+                            <input
+                                type="checkbox"
+                                id="javascript"
+                                name="skills"
+                                value="JavaScript">
+
+                            <label for="javascript">JavaScript</label>
+
+
+                            <input
+                                type="checkbox"
+                                id="react"
+                                name="skills"
+                                value="React">
+
+                            <label for="react">React</label>
+
+                        </td>
+                    </tr>
+
+
+                    
+                    <tr>
+                        <td>
+                            <label for="cover">
+                                <b>Cover Letter:</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <textarea
+                                id="cover"
+                                name="cover"
+                                rows="6"
+                                cols="30"
+                                placeholder="Write something about yourself..."></textarea>
+                        </td>
+                    </tr>
+
+
+                    
+                    <tr>
+                        <td colspan="2" align="center">
+
+                            <button type="submit">
+                                Submit
+                            </button>
+
+                            <button type="reset">
+                                Reset
+                            </button>
+
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

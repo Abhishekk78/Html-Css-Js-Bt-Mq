@@ -19,8 +19,6 @@ For create table body :
 border - 1
 rowspan ->  use to cell vertical marge
 colspan -> use to cell horizontal marge 
-
+cellspacing -> use to set external spacing
+cellpadding -> use to set internal spacing
 <tfoot> -> to add summary contant 
-
-
-
