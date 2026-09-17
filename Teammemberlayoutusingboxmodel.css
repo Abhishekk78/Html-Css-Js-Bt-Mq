@@ -1,0 +1,147 @@
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box1{
+
+   
+    padding: 40px;
+    margin-left: 440px;
+    width: 540px;
+    height: 500px;
+    background-color: lightgray;
+}
+
+ .box2{
+    
+     border: 15px solid #1690F8;
+    padding:0px;
+    margin: 50px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.box2 .img{
+    
+    height: 400px;
+    width:400px;
+}
+
+
+.box3{
+
+   margin-top: 69px;
+    padding: 20px;
+    margin-left: 180px;
+    width: 240px;
+    height: 240px;
+    /* background-color: lightgray; */
+}
+
+ .box4{
+    
+     border: 5px solid #1690F8;
+    padding: 35px;
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+    background-color: lightgrey;
+    
+}
+
+.box4 h1{
+    font-family:'Popins',sans-serif;
+    font-weight: 600;
+}
+
+.box4 .card{
+    height: 270px;
+    width: 300px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.box4 .card .img1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+
+.box4 .card .h{
+text-align: center;
+}
+
+
+.box4 .card .developer-badge {
+  display: flex;
+  align-items: center; 
+  gap: 10px;          
+}
+  
+.box4 .card .developer-badge p {
+  margin: 0; 
+}
+
+
+.box5 {
+    margin-top: -200px;
+    margin-left: 850px;
+    width: 540px;
+    height: 500px;
+    background-color: lightgray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 .box6 {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+
+.box5 .box6 .text .p1{
+   margin-left: 60px;
+   font-size: 20px;
+   margin-top: 40px;
+   color: blue !important;
+  
+}
+
+.box5 .box6 .text .p2{
+   margin-left: 60px;
+   font-size: 20px;
+   color: black;
+}
+
+.box5 .box6 .text .img2{
+   margin-left:230px;
+   margin-top: -100px;
+   height:130px;
+   width: 130px;
+}
+
+.box5 .box6 .line{
+  
+  background-color: #1690F8;
+  margin-top: 25px;
+  margin-left: 20px;
+  height: 30px;
+  width: 80%;
+padding: 10px;
+}
+
+.box5 .box6 .text1 .p3{
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Popins',sans-serif;
+text-align: center;
+color: black;
+}
