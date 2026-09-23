@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color:  ghostwhite;
+}
+
+.Container {
+    height: 94vh;
+    width: 30%;
+    background-color: blue;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+.item p {
+    padding: 20px;
+    font-size: 17px;
+    display: flex;
+    justify-content: left;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.userprofile p{
+    color: white;
+    display: flex;
+    margin-top: 400px;
+    opacity: 0.3;
+}

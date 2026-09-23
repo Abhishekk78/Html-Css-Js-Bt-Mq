@@ -1,0 +1,24 @@
+.Navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.Navbar ul .logo{
+    height: 50px;
+    width: 50px;
+    margin-right: auto;
+}
+
+.Navbar ul li{
+    margin-left: 20px;
+}
+
+.Navbar ul li a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 8px 10px;
+    
+}
