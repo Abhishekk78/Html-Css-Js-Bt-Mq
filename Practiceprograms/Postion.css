@@ -1,0 +1,37 @@
+.Container{
+    border: 2px solid black;
+    height: 5000px;
+    width: 100%;
+     position: relative;
+}
+
+
+
+.Container .img1{
+    height: 200px;
+    width: 200px;
+  
+}
+.Container .img2{
+    height: 200px;
+    width: 200px;
+}
+.Container .img3{
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    
+}
+.Container .img4{
+    height: 200px;
+    width: 200px;
+   position: fixed;
+  
+}
+
+#Container{
+    height: 8000px;
+    width: 100%;
+    background-color: aqua;
+    border: 2px solid black;
+}

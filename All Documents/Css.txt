@@ -23,3 +23,41 @@ rgb -> (Red,green,blue) to give color to your contant
 0 - 255 in rgb
 
 hexaDecimal -> use to #ffff -> it is white color use this to make color commbinations.
+
+
+display properties ->  block, inline-block
+
+postions -> static,absolute,relative,fixed,sticky
+
+px,%,vh,vw,em -> for give length and height,width
+
+Boxsizing , display - flex,align-item,justify-content
+
+transition -> properties,duration,timefunction,dealy 
+
+tranform->hover, sacel,rotate(deg),skew(deg),translate->for  down(10px,20px) , for up (-50px)
+
+flex -> main axis, cross axis  
+
+flex - direction -> row,column,row-reverse,column-reverse
+
+justify-content -> flex-start/start,flex-end/end,center,space-between,space-around,space-envely
+
+align-item -> stretch, flex-start/end,center,baseline
+
+flex-wrap-> flex-wrap,no-wrap
+
+grid-> display:grid, gird-template-row:1fr for equally divide , gird-template-column: 1fr for equally divide , 
+grid-template-start:start index(1),grid-template-end: end indx(4)  
+
+
+set height, width -> max-height,min-height,min-width,max-width
+
+media query-> All device media query 
+
+1. Mobile (575px) max
+2. Large Mobile (576px - 767px) min - max
+3. Tablet (768px - 991px) min - max
+4. Laptop (992px - 1199px) min - max
+5. Desktop (1200px - 1399px) min - max
+6. Large Desktop (1400px) min
