@@ -1,0 +1,321 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.card {
+    min-height: 100vh;
+    width: 100%;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+
+.card > h1 {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: clamp(22px, 3vw, 32px);
+}
+
+
+.card .grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+
+.card .grid [class^="box"] {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Box Headings */
+.card .grid [class^="box"] h2,
+.card .grid [class^="box"] h3,
+.card .grid [class^="box"] h4,
+.card .grid [class^="box"] h5,
+.card .grid [class^="box"] h6,
+.card .grid [class^="box"] .h1,
+.card .grid [class^="box"] .h2,
+.card .grid [class^="box"] .h3,
+.card .grid [class^="box"] .h4,
+.card .grid [class^="box"] .h5,
+.card .grid [class^="box"] .h6,
+.card .grid [class^="box"] .h7,
+.card .grid [class^="box"] .h8,
+.card .grid [class^="box"] .h9,
+.card .grid [class^="box"] .h10 {
+    color: black;
+    font-size: clamp(16px, 1.5vw, 25px);
+    text-align: center;
+    margin: 0;
+}
+
+
+.card .grid2 {
+    margin-top: 35px;
+}
+
+
+.card .grid2 .h11 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin: 0 0 20px;
+    font-size: clamp(18px, 2vw, 24px);
+    color: black;
+}
+
+.card .grid2 span {
+    color: rgba(84, 4, 93, 0.758);
+    text-decoration: underline;
+}
+
+
+.card .grid2 .cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+
+.card .grid2 .cards .card1 {
+    min-width: 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    overflow: hidden;
+}
+
+
+.grid2 .cards .card1 .img1 {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin: 0 auto 15px;
+}
+
+
+.grid2 .cards .card1 .h12 {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    overflow-wrap: anywhere;
+}
+
+
+.grid2 .cards .card1 p {
+    font-size: 15px;
+    margin: 10px 0;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+
+.grid2 .cards .card1 .star {
+    display: block;
+    font-size: 16px;
+    margin: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.grid2 .cards .card1 .price {
+    display: inline-block;
+    font-size: 17px;
+    margin: 10px 5px 10px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.grid2 .cards .card1 .price2 {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 0 10px;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+
+.grid2 .cards .card1 .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.grid2 .cards .card1 .btn,
+.grid2 .cards .card1 .btn1,
+.grid2 .cards .card1 .btn3 {
+    min-height: 38px;
+    flex: 1 1 100px;
+    max-width: 100%;
+    padding: 8px 10px;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    overflow-wrap: anywhere;
+}
+
+.grid2 .cards .card1 .btn {
+    background-color: #3F51B5;
+    color: white;
+}
+
+.grid2 .cards .card1 .btn1 {
+    background-color: skyblue;
+    color: #3d3c0a;
+}
+
+.grid2 .cards .card1 .btn3 {
+    background-color: peachpuff;
+    color: #3d3c0a;
+}
+
+@media (max-width: 1024px) {
+    .card .grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .card .grid2 .cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid2 .cards .card1 .img1 {
+        height: 170px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        padding: 15px;
+    }
+
+    .card .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .card .grid [class^="box"] {
+        min-height: 85px;
+    }
+
+    .card .grid2 {
+        margin-top: 25px;
+    }
+
+    .card .grid2 .cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .grid2 .cards .card1 {
+        padding: 10px;
+    }
+
+    .grid2 .cards .card1 .img1 {
+        height: 140px;
+    }
+
+    .grid2 .cards .card1 .h12 {
+        font-size: 15px;
+    }
+
+    .grid2 .cards .card1 p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 10px;
+        border-width: 2px;
+    }
+
+    .card > h1 {
+        font-size: 22px;
+        margin-left: 2px;
+    }
+
+    .card .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+    }
+
+    .card .grid [class^="box"] {
+        min-height: 75px;
+        padding: 5px;
+    }
+
+    .card .grid [class^="box"] .h1,
+    .card .grid [class^="box"] .h2,
+    .card .grid [class^="box"] .h3,
+    .card .grid [class^="box"] .h4,
+    .card .grid [class^="box"] .h5,
+    .card .grid [class^="box"] .h6,
+    .card .grid [class^="box"] .h7,
+    .card .grid [class^="box"] .h8,
+    .card .grid [class^="box"] .h9,
+    .card .grid [class^="box"] .h10 {
+        font-size: 16px;
+    }
+
+    .card .grid2 .h11 {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .card .grid2 .cards {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 15px;
+    }
+
+    .grid2 .cards .card1 .img1 {
+        height: 190px;
+    }
+
+    .grid2 .cards .card1 .h12 {
+        font-size: 16px;
+    }
+
+    .grid2 .cards .card1 p {
+        font-size: 14px;
+    }
+
+    .grid2 .cards .card1 .buttons {
+        gap: 8px;
+    }
+
+    .grid2 .cards .card1 .btn,
+    .grid2 .cards .card1 .btn1,
+    .grid2 .cards .card1 .btn3 {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+}
