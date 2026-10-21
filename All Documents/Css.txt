@@ -61,3 +61,6 @@ media query-> All device media query
 4. Laptop (992px - 1199px) min - max
 5. Desktop (1200px - 1399px) min - max
 6. Large Desktop (1400px) min
+
+
+z-index,box-shadow

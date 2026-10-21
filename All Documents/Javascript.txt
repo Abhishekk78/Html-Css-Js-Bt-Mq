@@ -1,0 +1,17 @@
+javscript introduction -> JavaScript (JS) is a versatile, lightweight,
+ and high-level programming language primarily known for driving the interactivity 
+ and dynamic behavior of web pages. Along with HTML (content and structure) and 
+ CSS (styling), JavaScript completes the three core pillars of web development
+
+Variables -> var,let,const
+datatpes :Primitives and non-primitives,object.
+-> Primitives : Number,Bigint
+-> non-primitives : String,Boolean,Null,undefined,Symbol
+->Object : Object,Array,Function,Date,RegExp,Set,Map
+
+how to check type of Variables -> typeof(var)
+
+
+var -> redeclare & reassign done 
+let  not done redeclare & reassign done
+const -> both are not allowed redeclare & reassign 
